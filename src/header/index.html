@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+        <!-- Import Icon -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!-- Bootstrap -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    </head>
+    <body>
+
+        <!-- nav bar -->
+        <div class="header">
+            <nav role="navigation" class="header-nav" id="menu">
+                <a href="javascript:void(0);" class="icon" onclick="menuburger()">
+                    <i class="fa fa-bars"></i>
+                </a>
+                <ul class="menu">
+                    <li>
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">Sobre</a>
+                    </li>
+                    <li>
+                        <a href="#">Serviços</a>
+                        <ul class="dropdown">
+                    
+                            <li>
+                                <a href="#">Desenvolvimento Web</a>
+                            </li>
+                            <li>
+                                <a href="#">Web Desing</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">Projetos</a>
+                    </li>
+                    <li>
+                        <a href="#">Contato</a>
+                    </li>
+            </nav>
+        </div>     
+        
+        <!-- Home -->
+        <div class="panel">
+            <div class="row align-self-center w-100 align-items-center justify-content-center">
+                <div class="mx-auto col-sm-7 col-md-7 col-9">
+                    <div class="timeline" id="timeline-home">
+                        <img src="../../assets/img/seta-para-baixo (1).png">
+                        <div class="bullet" ></div>
+                    </div>
+                    <div id="txt">
+                        <h1 class="text">
+                            Olá, meu nome é Luiz Henrique,
+                            <p class="typping">e eu sou desenvolvedor junior.</p>
+                        </h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- About -->
+        <div class="panel-home">
+            <div class="row align-self-center w-100  align-items-center justify-content-center">
+                <div class="mx-auto col-sm-7 col-md-7 col-9">
+                    <div class="timeline" id="timeline-about">
+                        <div class="bullet" ></div> 
+                    </div>
+                      <h1 class="text">
+                        Estou começando em html, css e javascript. 
+                            Sou entusiastas em tecnologia, gosto de ficar ligado nas novas informações da tecnologia.
+                      </h1>
+                          
+                    
+                </div>
+            </div>
+        </div>
+
+        <!-- skills -->
+        <div class="panel-home">
+            <div class="row align-self-center w-100 align-items-center justify-content-center">
+                <div class="mx-auto col-sm-7 col-md-7 col-9">
+                    <div class="timeline" id="timeline-skills">
+                        <div class="bullet"></div> 
+                    </div>
+                      
+                          
+                    
+                </div>
+            </div>
+        </div>
+
+        <!-- Contact-->
+        <div class="panel-home">
+            <div class="row align-self-center w-100 align-items-center justify-content-center">
+                <div class="mx-auto col-sm-7 col-md-7 col-9">
+                    <div class="timeline" id="timeline-contact">
+                        <div class="bullet"></div> 
+                    </div>
+                    <form onsubmit="send(event)">
+                         <div class="form-group">
+                            <input type="text" placeholder="Seu nome">
+                            <input type="email" placeholder="Seu email">
+                            <input type="textarea" placeholder="Assunto">
+                            <button>Enviar</button>
+                            <div class="alert alert-success alert-dismissible dade show" role="alert">
+                                Obrigado pelo contato.
+                                <a type="button" class="close" data-dismiss="alert"aria-label="Close">
+                                    <span aria-hidden="true">&times</span>
+                                </a>    
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->   
+        <footer class="footer">
+            <div class="social-bar">
+                <img src="../../assets/img/github (1).png">
+                <img src="../../assets/img/instagram (1).png">
+                <img src="../../assets/img/whatsapp (1).png">
+            </div>
+            <div class="signature">
+                <p>Feito por Luiz Henrique </p>
+            </div>
+        </footer> 
+
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+        <script src="script.js"></script>
+    </body>
+
+</html>
